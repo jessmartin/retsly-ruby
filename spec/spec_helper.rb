@@ -1,4 +1,6 @@
 require "bundler/setup"
+require "webmock/rspec"
+
 require "retsly"
 
 RSpec.configure do |config|
