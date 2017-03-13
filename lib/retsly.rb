@@ -1,5 +1,6 @@
 require "retsly/version"
 require "retsly/listings"
+require "retsly/connection"
 
 module Retsly
   @open_timeout = 30
