@@ -31,7 +31,7 @@ Retsly.vendor = "vendor-string"
 
 Right now, you can only access all listings, like so:
 
-```
+```ruby
 Retsly::Listings.retrieve
 ```
 
