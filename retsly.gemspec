@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Jess Martin"]
   spec.email         = ["jessmartin@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "http://github.com/jessmartin/retsly"
+  spec.summary       = %q{API client for connecting to rets.ly}
+  spec.description   = %q{API client for connecting to rets.ly}
+  spec.homepage      = "http://github.com/jessmartin/retsly-ruby"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -33,4 +33,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.14"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "webmock", "~> 2.3"
 end
